@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/StoreSimulator" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="SimulatorHandler_InstanceCount" Value="-1" />
+    <Parameter Name="OrdersGenerator_PartitionCount" Value="1" />
+    <Parameter Name="OrdersGenerator_MinReplicaSetSize" Value="3" />
+    <Parameter Name="OrdersGenerator_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="OrdersHandler_InstanceCount" Value="-1" />
+    <Parameter Name="InventoryHandler_PartitionCount" Value="1" />
+    <Parameter Name="InventoryHandler_MinReplicaSetSize" Value="3" />
+    <Parameter Name="InventoryHandler_TargetReplicaSetSize" Value="3" />
+  </Parameters>
+</Application>
